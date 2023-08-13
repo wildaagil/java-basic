@@ -35,5 +35,17 @@ public class Main {
 
         hasil = num1 + num2;
         System.out.println("maka hasilnya: " + hasil);
+
+        //if else statement
+        double ipk = 3.5;
+
+        if (ipk >= 3.5){
+            System.out.println("Mantap cumlaude");
+        } else if (ipk > 2.75 && ipk <= 3.4) {
+            System.out.println("Sangat Memuaskan");
+        }
+        else{
+            System.out.println("Memuaskan");
+        }
     }
 }

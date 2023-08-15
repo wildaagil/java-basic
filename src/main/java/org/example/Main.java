@@ -63,5 +63,18 @@ public class Main {
                 System.out.println("Dengan Pujian");
                 break;
         }
+
+        //looping while (dicek dulu nilai a nya)
+        while (a <= 5){ //identifikasi nilai a
+            System.out.print(a); //cetak nilai a
+            a++; //menambahkan 1 pada a
+        }
+
+        //do while cetak terlebih dulu nilai a baru di cek nilai a nya
+        do {
+            System.out.println(a); //cetak nilai a
+            a++; //menambahkan 1 pada variabel a
+        }
+        while (a <= 5); //mengecek nilai a
     }
 }

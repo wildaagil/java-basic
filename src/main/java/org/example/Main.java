@@ -37,15 +37,31 @@ public class Main {
         System.out.println("maka hasilnya: " + hasil);
 
         //if else statement
-        double ipk = 3.5;
+        int ipk = 4;
 
-        if (ipk >= 3.5){
+        if (ipk > 3){
             System.out.println("Mantap cumlaude");
-        } else if (ipk > 2.75 && ipk <= 3.4) {
+        } else if (ipk > 2 && ipk <= 3) {
             System.out.println("Sangat Memuaskan");
         }
         else{
             System.out.println("Memuaskan");
+        }
+
+        //switch case
+        switch (ipk){
+            case 1:
+                System.out.println("Tidak Lulus");
+                break;
+            case 2:
+                System.out.println("Memuaskan");
+                break;
+            case 3:
+                System.out.println("Sangat Memuaskan");
+                break;
+            case 4:
+                System.out.println("Dengan Pujian");
+                break;
         }
     }
 }

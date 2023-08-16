@@ -76,5 +76,18 @@ public class Main {
             a++; //menambahkan 1 pada variabel a
         }
         while (a <= 5); //mengecek nilai a
+
+        //looping for
+        for (int w=1; w<=5; w++){
+            System.out.print(w);
+        }
+
+        //nested for (perulangan for dalam for)
+        for (int nr = 1; nr <= 5; nr++){ //melakukan perulangan ke bawah
+            for (int wa = 1; wa <= nr; wa++){ // melakukan perulangan ke samping
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }

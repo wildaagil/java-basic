@@ -89,5 +89,15 @@ public class Main {
             }
             System.out.println();
         }
+
+        //Array
+        String[] Minum = {"Aqua", "Le mineral", "Cleo"};
+        System.out.println(Minum[0]); //menampilkan Aqua
+        /* index array dimulai dengan 0 bukan 1 sehingga
+        Aqua index ke o
+        Le mineral index ke 1
+        Cleo index ke 2
+         */
+        System.out.println(Minum[0] + " " + Minum[1] + " " + Minum[2]); //menampilakn semua data array Minu
     }
 }

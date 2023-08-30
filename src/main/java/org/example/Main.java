@@ -3,7 +3,30 @@ package org.example;
 import java.util.Scanner;
 
 public class Main {
+    static void newMethod(){ //membuat fungsi baru bernama newMethod
+        System.out.println("Hello Agil");
+    }
+
+    static void myMethod(String name){ //membuat fungsi baru dengan tipe data string
+        System.out.println("Haiii" + name);
+    }
+
+    static void checkAge(int age){ //fungsi untuk chechAage
+        if (age>=22){
+            System.out.println("time to work");
+        }
+        else {
+            System.out.println("study");
+        }
+    }
+
     public static void main(String[] args) {
+        newMethod(); //memanggil fungsi newMethod untuk menampilkan pesan "hello agil"
+
+        myMethod("Agil"); //memanggil fungsi myMethod bertipe data string
+
+        checkAge(22); //menampilkan hasil dari fungsi checkAge
+
         /* The code below is an example of
         comments */
         System.out.println("Hello world!"); //print char

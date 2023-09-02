@@ -20,7 +20,20 @@ public class Main {
         }
     }
 
+    int x = 12; //menginisialisasikan nilai x pada class main
+
     public static void main(String[] args) {
+
+        Main newObj = new Main(); //membuat objek baru bernama newObj
+        System.out.println(newObj.x); //menampilkan nilai x pada class main dengan objek newObj
+
+        secondPage secondpage = new secondPage(); //membuat objek baru secondpage
+        /* memanggil dan menampilkan fname, lname dan hobi
+        pada class secondPage
+         */
+        System.out.println("Name: " + secondpage.fname + " " + secondpage.lname);
+        System.out.println("Hobi: " + secondpage.hobi);
+
         newMethod(); //memanggil fungsi newMethod untuk menampilkan pesan "hello agil"
 
         myMethod("Agil"); //memanggil fungsi myMethod bertipe data string

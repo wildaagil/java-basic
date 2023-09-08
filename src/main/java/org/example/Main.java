@@ -34,6 +34,11 @@ public class Main {
         System.out.println("Name: " + secondpage.fname + " " + secondpage.lname);
         System.out.println("Hobi: " + secondpage.hobi);
 
+//        secondpage.dataName = "Agil"; //input data dari personalData pada secondPage
+//        secondpage.dataYear = 2001; //input data dari personalData pada secondPage
+
+        secondpage.personalData("agil", 2001); //input data dari method personalData pada secondPage
+
         newMethod(); //memanggil fungsi newMethod untuk menampilkan pesan "hello agil"
 
         myMethod("Agil"); //memanggil fungsi myMethod bertipe data string
